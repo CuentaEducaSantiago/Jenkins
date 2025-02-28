@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class E05{
 	public static void main(String[] args){
 		Scanner teclado=new Scanner(System.in);
-		int cont2=0, cont=0, n=0, n2=0;
 		while(n<=0 || n>10){
 			System.out.println("Introduce un numero de Filas:");
 			n=teclado.nextInt();
